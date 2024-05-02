@@ -89,5 +89,5 @@ int main (int argc, char *argv)
         perror(" Erreur lors de la fermeture de la socket\n");
     }
     
-    exit(0);
+    return 0;
 }
